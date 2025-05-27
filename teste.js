@@ -71,5 +71,3 @@ const leia = require('readline-sync')
 
 // quantidade = leia.questionInt("\nDigite um valor do tipo Inteiro: ", {limitMessage: 'Digite um numero inteiro'});
 // console.log("O valor inteiro digitado foi: " + quantidade);
-
-
