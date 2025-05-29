@@ -1,4 +1,4 @@
-//let numero = 9.9; //escopo global
+let numero = 9.9; //escopo global
 
 // console.log(`valor antes do if: ${numero}`);
 
@@ -13,15 +13,15 @@
 //   return
 // }
 
-// if (numero >= 9) {
-//   caso o if seja verdadeiro, cai aqui
-//   console.log(`passou`);
-// } else if(numero >= 8) {
-//   console.log('recuperação');
-// } else {
-//   caso o if seja falso, cai aqui
-//   console.log('reprovou');
-// }
+if (numero >= 9) {
+  //caso o if seja verdadeiro, cai aqui
+  console.log(`passou`);
+} else if(numero >= 8) {
+  console.log('recuperação');
+} else {
+  //caso o if seja falso, cai aqui
+  console.log('reprovou');
+}
 
 // console.log(`========================`);
 
@@ -87,23 +87,24 @@
 
 // IF ternário
 
-(2 < 5) && console.log('é verdade');
+// (2 < 5) && console.log('é verdade');
 
-(2 > 5) // === if (2 > 5)
-? console.log('é maior') // {primeira chave do if}
-: console.log('é menor') // else
+// (2 > 5) // === if (2 > 5)
+// ? console.log('é maior') // {primeira chave do if}
+// : console.log('é menor') // else
 
-if (2 > 5) {
-  console.log('é maior')
-} else {
-  console.log('é menor')
-}
+// if (2 > 5) {
+//   console.log('é maior')
+// } else {
+//   console.log('é menor')
+// }
 
-(2 > 5) 
-? console.log('sim, 2 é maior que 5') 
-: (2 < 3) 
-? console.log('sim 2 é menor que 3') 
-: console.log('não rolou')
+// (2 > 5) 
+// ? console.log('sim, 2 é maior que 5') 
+// : (2 < 3) 
+// ? console.log('sim 2 é menor que 3') 
+// : console.log('não rolou')
 
-console.log('**********************');
+// console.log('**********************');
+
 
